@@ -5,10 +5,10 @@
   "keywords": ["portfolio", "frontend", "developer", "bootstrap", "javascript", "responsive"],
   "author": "Your Name",
   "license": "MIT",
-  "homepage": "https://yourusername.github.io/portfolio",
+  "homepage": "https://rakibadnan10.github.io/my_portfolio/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/portfolio"
+    "url": "https://github.com/rakibadnan10/my_portfolio"
   },
   "scripts": {
     "test": "jest --coverage",

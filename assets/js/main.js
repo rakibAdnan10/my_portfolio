@@ -622,6 +622,14 @@
         return;
       }
 
+      this.projectImages = [
+        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800',
+        'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800',
+        'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800',
+        'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800',
+        'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800',
+        'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800'
+      ];
       const langs = ['JavaScript', 'HTML', 'CSS', 'Python', 'Java', 'C++', 'C#', 'TypeScript', 'PHP'];
       const categoryMap = {
         'JavaScript': 'frontend', 'TypeScript': 'frontend', 'HTML': 'frontend', 'CSS': 'frontend',
@@ -642,7 +650,7 @@
                 <div class="project-card card-3d">
                   <div class="card-3d-inner">
                     <div class="card-image">
-                      <img src="assets/images/project-${(i % 6) + 1}.jpg" alt="${repo.name}" loading="lazy" onerror="this.src='assets/images/project-1.jpg'">
+                      <img src="${this.projectImages[i % 6]}" alt="${repo.name}" loading="lazy">
                       <div class="card-overlay">
                         <a href="${repo.html_url}" target="_blank" rel="noopener" title="GitHub">
                           <i class="fab fa-github"></i>
@@ -694,7 +702,7 @@
             <div class="project-card card-3d">
               <div class="card-3d-inner">
                 <div class="card-image">
-                  <img src="assets/images/project-${(i % 6) + 1}.jpg" alt="${repo.name}" loading="lazy">
+                  <img src="${this.projectImages[i % 6]}" alt="${repo.name}" loading="lazy">
                   <div class="card-overlay">
                     <a href="https://github.com/rakibAdnan10" target="_blank" rel="noopener" title="GitHub">
                       <i class="fab fa-github"></i>
