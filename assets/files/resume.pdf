@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <rect width="800" height="1100" fill="#ffffff"/>
+  <text x="400" y="100" font-family="Arial" font-size="36" font-weight="bold" text-anchor="middle" fill="#333">RESUME</text>
+  <text x="400" y="140" font-family="Arial" font-size="18" text-anchor="middle" fill="#666">John Doe - Full Stack Developer</text>
+  <line x1="100" y1="170" x2="700" y2="170" stroke="#0d6efd" stroke-width="2"/>
+  <text x="100" y="220" font-family="Arial" font-size="22" font-weight="bold" fill="#333">Experience</text>
+  <text x="100" y="260" font-family="Arial" font-size="16" fill="#555">Senior Full Stack Developer - TechCorp Inc. (2022-Present)</text>
+  <text x="100" y="290" font-family="Arial" font-size="14" fill="#777">Lead development of microservices architecture serving 2M+ users.</text>
+  <text x="100" y="340" font-family="Arial" font-size="22" font-weight="bold" fill="#333">Education</text>
+  <text x="100" y="380" font-family="Arial" font-size="16" fill="#555">M.Sc. Computer Science - Stanford University (2018-2020)</text>
+  <text x="100" y="420" font-family="Arial" font-size="16" fill="#555">B.Tech Computer Science - MIT (2014-2018)</text>
+  <text x="100" y="480" font-family="Arial" font-size="22" font-weight="bold" fill="#333">Skills</text>
+  <text x="100" y="520" font-family="Arial" font-size="16" fill="#555">JavaScript, TypeScript, React, Node.js, Python, C#, AWS, Docker</text>
+  <text x="100" y="580" font-family="Arial" font-size="22" font-weight="bold" fill="#333">Contact</text>
+  <text x="100" y="620" font-family="Arial" font-size="16" fill="#555">Email: john.doe@example.com | Phone: +1 (555) 123-4567</text>
+</svg>

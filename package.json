@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Professional Portfolio Website - A stunning, responsive, animated personal portfolio built with HTML5, CSS3, JavaScript, and Bootstrap 5",
+  "keywords": ["portfolio", "frontend", "developer", "bootstrap", "javascript", "responsive"],
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://yourusername.github.io/portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/portfolio"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "collectCoverageFrom": [
+      "assets/js/*.js"
+    ]
+  }
+}
